@@ -55,7 +55,6 @@ medNum
 ```
 
 The mean and median are given above by both the script, and the graph. 
-\pagebreak
 
 ## What is the average daily activity pattern?
 
@@ -92,7 +91,6 @@ max(dailyAverage$steps)
 ```
 The plot describes the average daily activity pattern, while the blue vertical line indicates the max of the series. 
 
-\pagebreak
 
 ## Imputing missing values
 
@@ -170,7 +168,6 @@ medNum
 Using this imputation method, the mean was the same, but the median increased.
 The median is the same as the mean after the imputation. The change is due to the imputation method used. 
 
-\pagebreak
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
