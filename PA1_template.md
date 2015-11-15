@@ -32,7 +32,7 @@ ggplot(data = dailySteps, aes(steps)) +  theme_bw() +
                     ymin = 7.5, ymax = 8)
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-1-1.png) 
+![](./figures/unnamed-chunk-1-1.png) 
 
 ```r
 # Calculate Mean and Median
@@ -80,7 +80,7 @@ ggplot(data = dailyAverage, aes(x = interval, y = steps)) + theme_bw() +
                     ymin = 150, ymax = 200)
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
+![](./figures/unnamed-chunk-2-1.png) 
 
 ```r
 # Max
@@ -145,7 +145,7 @@ ggplot(data = impdailySteps, aes(steps)) +  theme_bw() +
                     ymin = 7.5, ymax = 8)
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-3-1.png) 
+![](./figures/unnamed-chunk-3-1.png) 
 
 ```r
 # Calculate Mean and Median
@@ -195,7 +195,7 @@ ggplot(weekAverage, aes(interval, steps)) +  theme_bw()+
   labs(x = "5-minute interval", y = "Average Daily Steps") 
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-4-1.png) 
+![](./figures/unnamed-chunk-4-1.png) 
 
 The distribution is clearly different for the weekend and weekday. The max of the series is higher in weekdays, than in the weekends. Although for many of the right handed intervals, the average seems to be higher in the weekends than in the weekdays.  
 
